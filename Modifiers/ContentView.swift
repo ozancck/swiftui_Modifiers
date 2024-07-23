@@ -10,10 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            
+            Spacer()
+            VStack {
+                Text("Hello, world!")
+                    .textFontStyle(.H1Bold)
+                    .frame(width: UIScreen.main.bounds.width * 0.8, alignment: .center)
+
+                Button(action: {
+                }, label: {
+                    Text("Lütfen Onaylayın")
+                })
+                .customButtonStyle(.danger)
+            }
         }
         .padding()
     }

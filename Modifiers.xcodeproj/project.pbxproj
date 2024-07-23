@@ -14,6 +14,8 @@
 		31F23F122C4FCEF000EFFE39 /* ModifiersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F23F112C4FCEF000EFFE39 /* ModifiersTests.swift */; };
 		31F23F1C2C4FCEF000EFFE39 /* ModifiersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F23F1B2C4FCEF000EFFE39 /* ModifiersUITests.swift */; };
 		31F23F1E2C4FCEF000EFFE39 /* ModifiersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F23F1D2C4FCEF000EFFE39 /* ModifiersUITestsLaunchTests.swift */; };
+		31F23F2C2C4FCF1E00EFFE39 /* TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F23F2B2C4FCF1E00EFFE39 /* TextModifiers.swift */; };
+		31F23F2E2C4FD16E00EFFE39 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F23F2D2C4FD16E00EFFE39 /* ButtonModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		31F23F172C4FCEF000EFFE39 /* ModifiersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModifiersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F23F1B2C4FCEF000EFFE39 /* ModifiersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersUITests.swift; sourceTree = "<group>"; };
 		31F23F1D2C4FCEF000EFFE39 /* ModifiersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31F23F2B2C4FCF1E00EFFE39 /* TextModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifiers.swift; sourceTree = "<group>"; };
+		31F23F2D2C4FD16E00EFFE39 /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		31F23EFF2C4FCEED00EFFE39 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				31F23F2A2C4FCF0000EFFE39 /* CustomModifiers */,
 				31F23F002C4FCEED00EFFE39 /* ModifiersApp.swift */,
 				31F23F022C4FCEED00EFFE39 /* ContentView.swift */,
 				31F23F042C4FCEEF00EFFE39 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				31F23F1D2C4FCEF000EFFE39 /* ModifiersUITestsLaunchTests.swift */,
 			);
 			path = ModifiersUITests;
+			sourceTree = "<group>";
+		};
+		31F23F2A2C4FCF0000EFFE39 /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				31F23F2B2C4FCF1E00EFFE39 /* TextModifiers.swift */,
+				31F23F2D2C4FD16E00EFFE39 /* ButtonModifiers.swift */,
+			);
+			path = CustomModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31F23F032C4FCEED00EFFE39 /* ContentView.swift in Sources */,
+				31F23F2C2C4FCF1E00EFFE39 /* TextModifiers.swift in Sources */,
+				31F23F2E2C4FD16E00EFFE39 /* ButtonModifiers.swift in Sources */,
 				31F23F012C4FCEED00EFFE39 /* ModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
