@@ -22,7 +22,7 @@ struct ContentView: View {
                 }, label: {
                     Text("Lütfen Onaylayın")
                 })
-                .customButtonStyle(.danger)
+                .customButtonStyle(.elipsis)
             }
         }
         .padding()
